@@ -36,21 +36,31 @@
             android:id="@+id/editTextInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/bg_edit_text"
             android:hint="Enter code snippet"
-            android:maxLines="10" />
+            android:maxLines="15"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
 
         <Button
             android:id="@+id/buttonAction"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Analyze Code" />
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_button"
+            android:text="Analyze Code"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
 
         <TextView
             android:id="@+id/textViewResult"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:textSize="16sp" />
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
 
     </LinearLayout>
 
